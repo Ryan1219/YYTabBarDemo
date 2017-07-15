@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5A37391F1A0245007311DF /* YYCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A37381F1A0245007311DF /* YYCenterViewController.m */; };
 		1F6FF35D1F19F310007C380C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FF35C1F19F310007C380C /* main.m */; };
 		1F6FF3601F19F311007C380C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FF35F1F19F311007C380C /* AppDelegate.m */; };
 		1F6FF3631F19F311007C380C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FF3621F19F311007C380C /* ViewController.m */; };
@@ -14,9 +15,13 @@
 		1F6FF3691F19F311007C380C /* YYTabBarDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FF3671F19F311007C380C /* YYTabBarDemo.xcdatamodeld */; };
 		1F6FF36B1F19F311007C380C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6FF36A1F19F311007C380C /* Assets.xcassets */; };
 		1F6FF36E1F19F311007C380C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6FF36C1F19F311007C380C /* LaunchScreen.storyboard */; };
+		1F6FF3771F19F56F007C380C /* YYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FF3761F19F56F007C380C /* YYTabBarViewController.m */; };
+		1F6FF37A1F19F6FB007C380C /* YYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FF3791F19F6FB007C380C /* YYTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F5A37371F1A0245007311DF /* YYCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCenterViewController.h; sourceTree = "<group>"; };
+		1F5A37381F1A0245007311DF /* YYCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCenterViewController.m; sourceTree = "<group>"; };
 		1F6FF3581F19F30F007C380C /* YYTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6FF35C1F19F310007C380C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F6FF35E1F19F310007C380C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +33,10 @@
 		1F6FF36A1F19F311007C380C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F6FF36D1F19F311007C380C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F6FF36F1F19F311007C380C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6FF3751F19F56F007C380C /* YYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTabBarViewController.h; sourceTree = "<group>"; };
+		1F6FF3761F19F56F007C380C /* YYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTabBarViewController.m; sourceTree = "<group>"; };
+		1F6FF3781F19F6FB007C380C /* YYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTabBar.h; sourceTree = "<group>"; };
+		1F6FF3791F19F6FB007C380C /* YYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,12 @@
 				1F6FF35F1F19F311007C380C /* AppDelegate.m */,
 				1F6FF3611F19F311007C380C /* ViewController.h */,
 				1F6FF3621F19F311007C380C /* ViewController.m */,
+				1F5A37371F1A0245007311DF /* YYCenterViewController.h */,
+				1F5A37381F1A0245007311DF /* YYCenterViewController.m */,
+				1F6FF3751F19F56F007C380C /* YYTabBarViewController.h */,
+				1F6FF3761F19F56F007C380C /* YYTabBarViewController.m */,
+				1F6FF3781F19F6FB007C380C /* YYTabBar.h */,
+				1F6FF3791F19F6FB007C380C /* YYTabBar.m */,
 				1F6FF3641F19F311007C380C /* Main.storyboard */,
 				1F6FF36A1F19F311007C380C /* Assets.xcassets */,
 				1F6FF36C1F19F311007C380C /* LaunchScreen.storyboard */,
@@ -154,8 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6FF3771F19F56F007C380C /* YYTabBarViewController.m in Sources */,
 				1F6FF3691F19F311007C380C /* YYTabBarDemo.xcdatamodeld in Sources */,
 				1F6FF3631F19F311007C380C /* ViewController.m in Sources */,
+				1F6FF37A1F19F6FB007C380C /* YYTabBar.m in Sources */,
+				1F5A37391F1A0245007311DF /* YYCenterViewController.m in Sources */,
 				1F6FF3601F19F311007C380C /* AppDelegate.m in Sources */,
 				1F6FF35D1F19F310007C380C /* main.m in Sources */,
 			);
@@ -282,7 +300,7 @@
 				DEVELOPMENT_TEAM = Q4U65JAZSA;
 				INFOPLIST_FILE = YYTabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ueb.newfrog.YYTabBarDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ueb.YYTabBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -294,7 +312,7 @@
 				DEVELOPMENT_TEAM = Q4U65JAZSA;
 				INFOPLIST_FILE = YYTabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ueb.newfrog.YYTabBarDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ueb.YYTabBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -318,6 +336,7 @@
 				1F6FF3741F19F311007C380C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
